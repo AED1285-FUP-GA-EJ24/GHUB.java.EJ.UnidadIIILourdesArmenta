@@ -20,10 +20,11 @@ public class Incentivo {
         unidades  = teclado.nextShort();
         if (unidades>100){
             tiene_incentivo = true;
+            tiene_incentivo = true;
         }
-        else{
+        else
             tiene_incentivo = false;
-        }
+        
         System.out.println("Tiene incentivo "+tiene_incentivo);
         teclado.close();
 
