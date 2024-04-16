@@ -1,2 +1,16 @@
-./miPrincipal/Principal.java
+./incentivo/Principal.java
+./incentivo/Incentivo.java
+./mayor/Mayor2.java
+./mayor/Mayor3.java
+./mayor/Principal.java
+./mayor/Mayor.java
 ./miTest/AppTest.java
+./ine/Ine.java
+./ine/Principal.java
+./difEdades/Principal.java
+./difEdades/DifEdades.java
+./tipoTriangulo/Principal.java
+./tipoTriangulo/Triangulo.java
+./romano/Principal.java
+./romano/Romano.java
+./miPrincipal/Principal.java
