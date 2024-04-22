@@ -1,14 +1,10 @@
 ./calificaciones/Calificacion.java
-./calificaciones/Principal.java
 ./vocal/Vocal.java
-./vocal/Principal.java
 ./difEdades/DifEdades.java
-./difEdades/Principal.java
 ./miTest/AppTest.java
 ./incentivo/Incentivo.java
 ./incentivo/Principal.java
 ./tipoTriangulo/Triangulo.java
-./tipoTriangulo/Principal.java
 ./mayor/Mayor2.java
 ./mayor/Mayor3.java
 ./mayor/Mayor.java
@@ -17,8 +13,5 @@
 ./menorde3/Principal.java
 ./miPrincipal/Principal.java
 ./peaje/Peaje.java
-./peaje/Principal.java
-./romano/Romano.java
-./romano/Principal.java
+./romano/romano/Romano.java
 ./ine/Ine.java
-./ine/Principal.java
