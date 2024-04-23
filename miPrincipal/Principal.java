@@ -1,5 +1,7 @@
 package miPrincipal;
 import java.util.Scanner;
+
+import bono.Bono;
 import difEdades.DifEdades;
 import incentivo.Incentivo;
 import ine.Ine;
@@ -28,6 +30,7 @@ public class Principal {
         System.out.println("* 8) Menor, Igual o Mayor de 3        ");
         System.out.println("* 9) Determinar Tipo de Calificación  ");
         System.out.println("*10) Seleccionar Tipo Tarifa          ");
+        System.out.println(" 11) Determinación de Bono             ");
         System.out.println("**************************************");
         System.out.print("Seleccion Opcion:");
         opcion = entrada.nextInt();
@@ -72,6 +75,11 @@ public class Principal {
              Peaje obPeaje = new Peaje();
              obPeaje.peaje();
              break;
+            case 11:
+             Bono objBono = new Bono();
+             objBono.bono();
+             break;
+             
             default:
               System.out.println("Opción inválida");
         }

@@ -2,6 +2,7 @@
 ./vocal/Vocal.java
 ./difEdades/DifEdades.java
 ./miTest/AppTest.java
+./bono/Bono.java
 ./incentivo/Incentivo.java
 ./incentivo/Principal.java
 ./tipoTriangulo/Triangulo.java
