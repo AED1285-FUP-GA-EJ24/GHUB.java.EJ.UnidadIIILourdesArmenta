@@ -12,6 +12,7 @@ import tipoTriangulo.Triangulo;
 import romano.Romano;
 import vocal.Vocal;
 import calificaciones.Calificacion;
+import demoFor.DemoFor;
 public class Principal {
     
     public static void main(String[] args) {
@@ -30,7 +31,8 @@ public class Principal {
         System.out.println("* 8) Menor, Igual o Mayor de 3        ");
         System.out.println("* 9) Determinar Tipo de Calificación  ");
         System.out.println("*10) Seleccionar Tipo Tarifa          ");
-        System.out.println(" 11) Determinación de Bono             ");
+        System.out.println("*11) Determinación de Bono            ");
+        System.out.println("*12) Demo For                         ");
         System.out.println("**************************************");
         System.out.print("Seleccion Opcion:");
         opcion = entrada.nextInt();
@@ -78,6 +80,10 @@ public class Principal {
             case 11:
              Bono objBono = new Bono();
              objBono.bono();
+             break;
+            case 12:
+             DemoFor objDemoFor = new DemoFor();
+             objDemoFor.demofor();
              break;
              
             default:
