@@ -10,6 +10,7 @@ import menorde3.Menorde3;
 import peaje.Peaje;
 import tipoTriangulo.Triangulo;
 import romano.Romano;
+import sumaPares.SumaPares;
 import vocal.Vocal;
 import calificaciones.Calificacion;
 import demoFor.DemoFor;
@@ -33,6 +34,7 @@ public class Principal {
         System.out.println("*10) Seleccionar Tipo Tarifa          ");
         System.out.println("*11) Determinación de Bono            ");
         System.out.println("*12) Demo For                         ");
+        System.out.println("*13) Suma los M primeros búmero pares ");
         System.out.println("**************************************");
         System.out.print("Seleccion Opcion:");
         opcion = entrada.nextInt();
@@ -84,6 +86,10 @@ public class Principal {
             case 12:
              DemoFor objDemoFor = new DemoFor();
              objDemoFor.demofor();
+             break;
+            case 13:
+             SumaPares objSumaPares = new SumaPares();
+             objSumaPares.sumaPares();
              break;
              
             default:
