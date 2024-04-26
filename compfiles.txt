@@ -1,6 +1,7 @@
 ./calificaciones/Calificacion.java
 ./vocal/Vocal.java
 ./sumaPares/SumaPares.java
+./demoIfAnidado/DemoIfAnidado.java
 ./difEdades/DifEdades.java
 ./miTest/AppTest.java
 ./bono/Bono.java
