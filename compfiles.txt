@@ -1,10 +1,12 @@
 ./calificaciones/Calificacion.java
 ./vocal/Vocal.java
 ./sumaPares/SumaPares.java
+./demoOpTernario/DemoOpTernario.java
 ./demoIfAnidado/DemoIfAnidado.java
 ./difEdades/DifEdades.java
 ./miTest/AppTest.java
 ./bono/Bono.java
+./multiplicar/Multiplicar.java
 ./demoFor/DemoFor.java
 ./incentivo/Incentivo.java
 ./incentivo/Principal.java

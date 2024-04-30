@@ -16,6 +16,7 @@ import calificaciones.Calificacion;
 import demoFor.DemoFor;
 import demoIfAnidado.DemoIfAnidado;
 import demoOpTernario.DemoOpTernario;
+import multiplicar.Multiplicar;
 public class Principal {
     
     public static void main(String[] args) {
@@ -39,6 +40,7 @@ public class Principal {
         System.out.println("*13) Operador Ternario ?:             ");     
         System.out.println("*14) Demo For                         ");
         System.out.println("*15) Suma los M primeros búmero pares ");
+        System.out.println("*16) Tabla Mutiplicar con argumentos  ");
         System.out.println("**************************************");
         System.out.print("Seleccion Opcion:");
         opcion = entrada.nextInt();
@@ -102,6 +104,12 @@ public class Principal {
             case 15:
              SumaPares objSumaPares = new SumaPares();
              objSumaPares.sumaPares();
+             break;
+            case 16:
+             Multiplicar objMult = new Multiplicar();
+             System.out.println("Proporciona número para generar tabla:");
+             int n = entrada.nextInt();
+             objMult.multiplicar(n);
              break;
             default:
               System.out.println("Opción inválida");
