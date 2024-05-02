@@ -43,6 +43,7 @@ public class Principal {
         System.out.println("*15) Suma los M primeros búmero pares ");
         System.out.println("*16) Tabla Mutiplicar con argumentos  ");
         System.out.println("*17) Demo ciclo while                 ");
+        System.out.println(" 18) Calculo de Calorias              ");
         System.out.println("**************************************");
         System.out.print("Seleccion Opcion:");
         opcion = entrada.nextInt();
