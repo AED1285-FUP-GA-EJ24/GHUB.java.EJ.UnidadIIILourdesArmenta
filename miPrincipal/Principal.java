@@ -18,6 +18,7 @@ import demoIfAnidado.DemoIfAnidado;
 import demoOpTernario.DemoOpTernario;
 import demoWhile.DemoWhile;
 import multiplicar.Multiplicar;
+import calorias.Calorias;
 public class Principal {
     
     public static void main(String[] args) {
@@ -117,6 +118,10 @@ public class Principal {
             case 17:
               DemoWhile objdw = new DemoWhile();
               objdw.demoWhile();
+              break;
+            case 18:
+              Calorias objCal= new Calorias();
+              objCal.calorias();
               break;
             default:
               System.out.println("Opción inválida");
