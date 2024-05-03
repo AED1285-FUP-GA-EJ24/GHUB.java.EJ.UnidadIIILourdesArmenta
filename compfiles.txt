@@ -2,6 +2,7 @@
 ./vocal/Vocal.java
 ./sumaPares/SumaPares.java
 ./demoOpTernario/DemoOpTernario.java
+./promedio2/Promedio.java
 ./demoIfAnidado/DemoIfAnidado.java
 ./difEdades/DifEdades.java
 ./miTest/AppTest.java
