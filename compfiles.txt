@@ -4,6 +4,7 @@
 ./demoOpTernario/DemoOpTernario.java
 ./promedio2/Promedio.java
 ./demoIfAnidado/DemoIfAnidado.java
+./ecuacion/Ecuacion.java
 ./difEdades/DifEdades.java
 ./miTest/AppTest.java
 ./bono/Bono.java
