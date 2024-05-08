@@ -1,4 +1,5 @@
 ./calificaciones/Calificacion.java
+./leerX/LeerX.java
 ./vocal/Vocal.java
 ./sumaPares/SumaPares.java
 ./demoOpTernario/DemoOpTernario.java
