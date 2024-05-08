@@ -22,6 +22,7 @@
 ./menorde3/Principal.java
 ./miPrincipal/Principal.java
 ./calorias/Calorias.java
+./promedio3/Promedio.java
 ./demoWhile/DemoWhile.java
 ./peaje/Peaje.java
 ./romano/romano/Romano.java

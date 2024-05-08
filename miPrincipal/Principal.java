@@ -22,6 +22,7 @@ import calorias.Calorias;
 import promedio2.Promedio;
 import ecuacion.Ecuacion;
 import leerX.LeerX;
+
 public class Principal {
     
     public static void main(String[] args) {
@@ -51,6 +52,7 @@ public class Principal {
         System.out.println(" 19) Promedio Calificaciones          ");
         System.out.println("*20) Calcular ecuacion                ");
         System.out.println("*21) Leer valor de x e imprimir y     ");
+        System.out.println("*22) Promedio Calificaciones (centinela)");
         System.out.println("**************************************");
         System.out.print("Seleccion Opcion:");
         opcion = entrada.nextInt();
@@ -141,8 +143,11 @@ public class Principal {
               LeerX objLeerX = new LeerX();
               objLeerX.leerX();
               break;
-              
-              
+            case 22:
+              promedio3.Promedio objProm3 = new promedio3.Promedio();
+              objProm3.promedio();
+              break;
+
             default:
               System.out.println("Opción inválida");
         }

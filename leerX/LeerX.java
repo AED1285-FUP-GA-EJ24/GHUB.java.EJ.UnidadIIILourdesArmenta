@@ -20,7 +20,6 @@ public class LeerX {
             System.out.println("Valor de y:"+Y);
             System.out.print("Introduce valor de x:");
             x = teclado.nextInt();
-
         }
         teclado.close();
 

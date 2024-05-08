@@ -1,16 +1,15 @@
-package promedio2;
+package promedio3;
 
-
-/*
-Propósito: calcular un promedio aritmético de n calificaciones
-Autor:
-Fecha:
-*/
 import java.util.Scanner;
+/*
+ * Proposito: Leer calificaciones mediante la técnica de centines
+ * que cuando en la calificacion teclee -1 indique que ya no hay calificaciones
+ * por leer
+ */
 
 public class Promedio {
     public void promedio(){
-        //objeto Scanner
+         //objeto Scanner
         Scanner teclado = new Scanner(System.in);
         //variable de salida
         float r;
