@@ -7,6 +7,7 @@
 ./demoIfAnidado/DemoIfAnidado.java
 ./ecuacion/Ecuacion.java
 ./difEdades/DifEdades.java
+./menu/Menu.java
 ./miTest/AppTest.java
 ./bono/Bono.java
 ./multiplicar/Multiplicar.java
