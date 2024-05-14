@@ -27,4 +27,5 @@
 ./demoWhile/DemoWhile.java
 ./peaje/Peaje.java
 ./romano/romano/Romano.java
+./demoDoWhile/DemoDoWhile.java
 ./ine/Ine.java

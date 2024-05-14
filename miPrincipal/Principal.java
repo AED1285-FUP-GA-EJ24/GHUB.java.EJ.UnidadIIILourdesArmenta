@@ -23,6 +23,7 @@ import promedio2.Promedio;
 import ecuacion.Ecuacion;
 import leerX.LeerX;
 import menu.Menu;
+import demoDoWhile.DemoDoWhile;
 
 public class Principal {
     
@@ -56,6 +57,7 @@ public class Principal {
           System.out.println("*21) Leer valor de x e imprimir y     ");
           System.out.println("*22) Promedio Calificaciones (centinela)");
           System.out.println("*23) Elaboracion Menu                 ");
+          System.out.println("*24) Demo ciclo do..while"            );
           System.out.println("*99) Salir ");
           System.out.println("**************************************");
           System.out.print("Seleccion Opcion:");
@@ -155,6 +157,12 @@ public class Principal {
                 Menu objMenu = new Menu();
                 objMenu.menu();
                 break;
+              case 24:
+                DemoDoWhile objDemoDoWhile = new DemoDoWhile();
+                objDemoDoWhile.demoDoWhile();
+                break;
+                
+
               case 99:
                  System.out.println("Hasta luego");
                  break;
