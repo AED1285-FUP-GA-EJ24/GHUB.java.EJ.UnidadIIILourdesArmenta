@@ -24,6 +24,8 @@ import ecuacion.Ecuacion;
 import leerX.LeerX;
 import menu.Menu;
 import demoDoWhile.DemoDoWhile;
+import demoBreak.DemoBreak;
+import calculoSaldo.CalculoSaldo;
 
 public class Principal {
     
@@ -58,6 +60,8 @@ public class Principal {
           System.out.println("*22) Promedio Calificaciones (centinela)");
           System.out.println("*23) Elaboracion Menu                 ");
           System.out.println("*24) Demo ciclo do..while"            );
+          System.out.println("*25) Demo break y continue"            );
+          System.out.println("*26) calculo de saldo");
           System.out.println("*99) Salir ");
           System.out.println("**************************************");
           System.out.print("Seleccion Opcion:");
@@ -161,6 +165,13 @@ public class Principal {
                 DemoDoWhile objDemoDoWhile = new DemoDoWhile();
                 objDemoDoWhile.demoDoWhile();
                 break;
+              case 25:
+                DemoBreak objDemoBreak = new DemoBreak();
+                objDemoBreak.demoBreak();
+                break;
+              case 26:
+                CalculoSaldo objCalculoSaldo = new CalculoSaldo();
+                objCalculoSaldo.calculoSaldo();
                 
 
               case 99:
